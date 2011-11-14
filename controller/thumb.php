@@ -22,8 +22,7 @@ class Thumb extends CI_Controller {
 	{
 			
 	
-		$this->load->view('thumb_view');//we're passing in the data to the pic_view that gives it access to the info
-
+		$this->load->view('thumb_view');//the thumb controller gets the data but  i wanna set the data it gets into a var
 	}
 	
 		public function logout()

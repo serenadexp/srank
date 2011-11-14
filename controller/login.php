@@ -26,7 +26,7 @@ class Login extends CI_Controller {
 				'is_logged_in' => true
 			);
 			$this->session->set_userdata($data);
-			redirect('thumb',$data);
+			redirect('thumb',$data);/* here i pass my data to the thumb controller */
 		}
 		else
 		{
