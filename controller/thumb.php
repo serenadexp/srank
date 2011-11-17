@@ -10,6 +10,7 @@ class Thumb extends CI_Controller {
 		parent::__construct();
 		
 		$this->load->helper(array('url'));
+
 	}
 	public function index()
 	{
@@ -20,7 +21,8 @@ class Thumb extends CI_Controller {
 	
 	public function thumb()
 	{
-			
+						$this->load->model('img_model');
+
 	
 		$this->load->view('thumb_view');//the thumb controller gets the data but  i wanna set the data it gets into a var
 	}

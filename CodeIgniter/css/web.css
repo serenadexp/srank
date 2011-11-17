@@ -1,0 +1,250 @@
+* {
+margin: 0;
+padding: 0;
+outline: none;
+}
+
+body{
+background-color:#282729;
+}
+
+
+#wrapper{
+width: 1015px;
+margin-left: auto;
+margin-right: auto;
+margin-top:40px; 
+clear:both;
+}
+
+#header{background-color:#42484A;
+padding-left:45px; 
+
+}
+
+#content{
+margin-top:180px;
+}
+
+
+#container{background-color: #42484A;
+/* width:860px; */
+margin-left: auto;
+margin-right: auto;
+clear: both;
+float: left;
+}
+
+#container2{background-color: #42484A;
+/* width:860px; */
+margin-left: auto;
+margin-right: auto;
+clear: both;
+
+}
+/*____________________________ search box elements */
+
+#roundS{
+border: 1px solid black;
+-moz-border-radius:3px;
+border-radius: 3px;
+width:335px;
+height:45px;  
+}
+
+#seaBtn{
+border:1px solid white;
+-moz-border-radius:3px;
+border-radius: 3px;
+/* height: 45px; */
+
+}
+
+#firstlvl{
+margin-left:10px;
+margin-top: 5px;
+
+}
+
+#seclvl{
+margin-left:10px;
+margin-top:5px;
+}
+#seaHold{
+border: 1px solid #A0A0A0;
+width:510px;
+height: 135px;
+-moz-border-radius:3px;
+border-radius: 3px;
+margin-left: 250px;
+
+background-color: #C4D24F;
+}
+
+#seaHold2{
+border: 1px solid #A0A0A0;
+width:510px;
+height: 100px;
+-moz-border-radius:3px;
+border-radius: 3px;
+margin-left: auto;
+margin-right: auto;
+background-color: #C4D24F;
+}
+
+#user{
+width: 150px;
+border:1px solid black;
+-moz-border-radius:3px;
+border-radius: 3px;
+height: 20px;
+}
+
+#pass{width:150px; 
+border:1px solid black;
+-moz-border-radius:3px;
+border-radius: 3px;
+height: 20px;
+}
+
+#logBtn{
+border:1px solid white;
+-moz-border-radius:3px;
+border-radius: 3px;
+/* height: 45px; */
+}
+
+#outBtn{
+border:1px solid white;
+-moz-border-radius:3px;
+border-radius: 3px;
+/* height: 45px; */
+}
+#mainpic{
+float: left;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+}
+
+#mainpic img {margin-left: 150px;}
+
+.hide{
+display: none;
+}
+/*___________________________ giant pic */
+#content{
+margin-left: auto;
+margin-right: auto;
+float: left;
+position: absolute;
+}
+
+#picSp{
+margin-left: 215px;
+/* margin-right: auto; */
+}
+
+.userComm{
+background-color:#C0CBCE;
+}
+/*____________________________ thumbs */
+
+
+#picholder{
+float: left;
+clear: both;
+margin-left: 55px;
+margin-top:45px;
+margin-bottom:45px;
+}
+
+
+.List{
+float: left;
+clear: both;
+}
+
+.gutter{
+float: left;
+margin-left:35px;
+margin-bottom: 30px;
+}
+
+.gutter a img{
+border-style:none;
+}
+
+#contentPic{
+/* background-color:#DCECF2; */
+width:520px;
+
+margin-left:90px;
+/* margin-right:auto; */
+}
+/* ____________________________fonts */
+.hSearch{
+font: 36pt Myriad Pro,arial;
+color:#919191;
+}
+
+.hFont{
+font:36pt MyriadPro,arial;
+color:#919191;
+
+}
+
+.sFont{
+font: 30pt Myriad Pro,arial;
+
+}
+
+.login{
+font: 12pt Myriad Pro,arial;
+
+}
+
+.lFont{
+font: 15pt Myriad Pro,arial;
+
+}
+
+.err{
+color:red;
+font: 15pt Myriad Pro,arial;
+}
+
+.wel{
+font: 15pt Myriad Pro,arial;
+color: white;
+}
+
+.join{
+text-decoration: none;
+color: #8EAF8B;
+}
+
+.remov{
+text-decoration: none;
+border: none;
+float: right;
+}
+
+.remov a img{
+text-decoration: none;
+border: none;
+}
+.remov a{
+text-decoration: none;
+border: none;
+}
+.notuserF{
+font:15pt Myriad Pro,arial;
+}
+.cresize{
+font: 20pt Myriad Pro,arial;
+}
+.memF{
+font: 20pt Myriad Pro,arial;
+
+}
